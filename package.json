@@ -1,0 +1,24 @@
+{
+  "name": "automacao-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "cross-env AMBIENTE=dev npx jest",
+    "test:local": "cross-env AMBIENTE=local npx jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@types/jest": "^29.4.0",
+    "babel-jest": "^29.4.3",
+    "cross-env": "^7.0.3",
+    "jest-html-reporters": "^3.1.4",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "jest": "^29.4.3"
+  }
+}
